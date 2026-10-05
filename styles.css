@@ -274,3 +274,75 @@ main { z-index: 1; }
 
 
 
+
+/* ================================
+   BEFORE I FIRST TALKED TO PAPA
+================================ */
+
+.fear-section {
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #fffaf0, #f8f1df);
+}
+
+.fear-card {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 55px;
+  background: rgba(71, 5, 177, 0.95);
+  border-radius: 25px;
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.12);
+  text-align: center;
+}
+
+.fear-content .section-kicker {
+  color: #b08d2c;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.fear-content h2 {
+  font-size: 2.7rem;
+  margin-bottom: 30px;
+  color: #0B1F3A;
+}
+
+.fear-content p {
+  color: #555;
+  font-size: 1.08rem;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+.fear-ending {
+  margin-top: 35px;
+  font-size: 1.25rem !important;
+  color: #0B1F3A !important;
+}
+
+.fear-ending strong {
+  color: #b08d2c;
+  font-size: 1.35rem;
+}
+
+@media (max-width: 768px) {
+  .fear-section {
+    padding: 70px 15px;
+  }
+
+  .fear-card {
+    padding: 40px 25px;
+  }
+
+  .fear-content h2 {
+    font-size: 2rem;
+  }
+
+  .fear-content p {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+}
+
